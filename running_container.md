@@ -44,4 +44,4 @@
 ### Note:
 once exited from the above ubuntu container, all the changes and packages installed inside a container will be gone. The resason is that the containers are blue prints of an image and they don't save the changes. If your chages are inside a container and it is closed then these chages will be lost and next time a new container will start from the image will not have the previous changes. "THE CONTAINER ARE NOT STATEFULL".
 
-- Please now check out how to make containers presist or make them keep running. 
+- Please now check out how to make containers persist or keep them running. Goto make_container_persist.md 
