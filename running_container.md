@@ -1,43 +1,43 @@
-#### to check all the docker images locally available on your machine:
+#### To check all the docker images locally available on your machine:
 
 ~$ docker images
 
-#### to search a docker container which we might want to download later (as an example search for an ubuntu container)
+#### To search a docker container which we might want to download later (as an example search for an ubuntu container)
 
 ~$ docker search ubuntu
 
-#### to download an image (again as an example ubuntu image):
+#### To download an image (again as an example ubuntu image):
 
 ~$ docker pull ubuntu
 
-#### now to run the above downloaded container type:
+#### To run the above downloaded container type:
 
 ~$ docker run ubuntu
 
 - it exits without doing anything because the ubuntu image has nothing to do right now.
 
-#### another example: 
+#### Another example: 
 
 ~$ docker run nginx
 
-#### if container has nothing to do it exits
+- Note: if container has nothing to do it exits
 
-#### to check all the running container on a system:
+#### To check all the running container on a system:
 
 ~$ docker ps
 
-#### to check all the containers running on a system as well as perviously running containers: 
+#### To check all the containers running on a system as well as perviously running containers: 
 
 ~$ docker ps -a
 
-#### to force a container to keep running (again as an example ubuntu container):
+#### To force a container to keep running (again as an example ubuntu container):
 
 ~$ docker run -it ubuntu /bin/bash 
 
 - now this ubuntu container is keep running with another prompt. Here as example install any packge, i.e vi, vim or etc. One can try to run a GUI or an audio file.
 
 
-#### to exit this container type 
+#### To exit this container type 
 
 ~$ exit
 

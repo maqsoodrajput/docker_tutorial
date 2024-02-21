@@ -19,4 +19,4 @@
 - One might get better performance on Linux host because the container is directly working on top of the Linux kernel.
 
 
-- Now go to the file installing_docker.md to install docker on your machine.
+- To follow the further tutorial goto the file installing_docker.md to install docker on your machine.
