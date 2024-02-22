@@ -37,7 +37,7 @@
 
 #### To go back to terminal without exiting:
 
-- press CTRL + p + q 
+- hold CTRL and press P, and while still holding CTRL, then press Q.
 - this will print on the terminal: "read escape sequence"
 - now one can go back to the container via the same command "docker attach <container_ID>" 
 
